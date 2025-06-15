@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "FireAkshay",
+    "slug": "FireAkshay",
+    "plugins": ["@react-native-firebase/app", "@react-native-firebase/auth"],
+    "permissions": ["CAMERA", "MEDIA_LIBRARY"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": ["CAMERA", "WRITE_EXTERNAL_STORAGE"],
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.akshaykumar123.FireAkshay"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "04a0c9f4-8d2c-4492-b2b6-b321b6d0c665"
+      }
+    }
+  }
+}
