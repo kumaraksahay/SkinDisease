@@ -191,7 +191,7 @@ export default function SkinDiseaseScreen({ navigation }) {
 
   const backgroundColors = bgColorAnim.interpolate({
     inputRange: [0, 1],
-    outputRange: ['#F9FAFE', '#F0F7FF'],
+    outputRange: ['#F9FAFE', '#E8EDFF'],
   });
 
   const renderInfoModal = () => {
@@ -205,7 +205,7 @@ export default function SkinDiseaseScreen({ navigation }) {
         <View style={styles.modalOverlay}>
           <View style={styles.modalContent}>
             <LinearGradient 
-              colors={['#6366F1', '#4F46E5']} 
+              colors={['#4338CA', '#312E81']} 
               style={styles.modalHeader}
             >
               <Text style={styles.modalTitle}>Guide to Perfect Skin Images</Text>
@@ -220,29 +220,29 @@ export default function SkinDiseaseScreen({ navigation }) {
             <ScrollView style={styles.modalScrollView}>
               <View style={styles.tipContainer}>
                 <View style={styles.tipHeader}>
-                  <MaterialCommunityIcons name="camera" size={24} color="#4F46E5" />
+                  <MaterialCommunityIcons name="camera" size={24} color="#4338CA" />
                   <Text style={styles.tipTitle}>Focus on Affected Areas</Text>
                 </View>
                 <View style={styles.tipCardContainer}>
                   <View style={styles.tipCard}>
-                    <MaterialCommunityIcons name="bandage" size={36} color="#4F46E5" />
+                    <MaterialCommunityIcons name="bandage" size={36} color="#4338CA" />
                     <Text style={styles.tipCardTitle}>Lesions</Text>
                     <Text style={styles.tipCardText}>Capture clear images of skin lesions or moles</Text>
                   </View>
                   <View style={styles.tipCard}>
-                    <MaterialCommunityIcons name="alert-circle" size={36} color="#4F46E5" />
+                    <MaterialCommunityIcons name="alert-circle" size={36} color="#4338CA" />
                     <Text style={styles.tipCardTitle}>Rashes</Text>
                     <Text style={styles.tipCardText}>Include images of rashes or red areas</Text>
                   </View>
                 </View>
                 <View style={styles.tipCardContainer}>
                   <View style={styles.tipCard}>
-                    <MaterialCommunityIcons name="magnify" size={36} color="#4F46E5" />
+                    <MaterialCommunityIcons name="magnify" size={36} color="#4338CA" />
                     <Text style={styles.tipCardTitle}>Close-Up</Text>
                     <Text style={styles.tipCardText}>Take close-up shots of affected skin</Text>
                   </View>
                   <View style={styles.tipCard}>
-                    <MaterialCommunityIcons name="body" size={36} color="#4F46E5" />
+                    <MaterialCommunityIcons name="body" size={36} color="#4338CA" />
                     <Text style={styles.tipCardTitle}>Full Area</Text>
                     <Text style={styles.tipCardText}>Show the entire affected region</Text>
                   </View>
@@ -251,7 +251,7 @@ export default function SkinDiseaseScreen({ navigation }) {
 
               <View style={styles.tipContainer}>
                 <View style={styles.tipHeader}>
-                  <MaterialCommunityIcons name="white-balance-sunny" size={24} color="#4F46E5" />
+                  <MaterialCommunityIcons name="white-balance-sunny" size={24} color="#4338CA" />
                   <Text style={styles.tipTitle}>Optimal Lighting</Text>
                 </View>
                 <Text style={styles.tipText}>
@@ -264,7 +264,7 @@ export default function SkinDiseaseScreen({ navigation }) {
 
               <View style={styles.tipContainer}>
                 <View style={styles.tipHeader}>
-                  <MaterialCommunityIcons name="image" size={24} color="#4F46E5" />
+                  <MaterialCommunityIcons name="image" size={24} color="#4338CA" />
                   <Text style={styles.tipTitle}>Image Selection Tips</Text>
                 </View>
                 <Text style={styles.tipText}>
@@ -278,7 +278,7 @@ export default function SkinDiseaseScreen({ navigation }) {
 
               <View style={styles.tipContainer}>
                 <View style={styles.tipHeader}>
-                  <MaterialCommunityIcons name="check-circle" size={24} color="#4F46E5" />
+                  <MaterialCommunityIcons name="check-circle" size={24} color="#4338CA" />
                   <Text style={styles.tipTitle}>Best Practices</Text>
                 </View>
                 <Text style={styles.tipText}>
@@ -296,7 +296,7 @@ export default function SkinDiseaseScreen({ navigation }) {
               onPress={() => setInfoModalVisible(false)}
             >
               <LinearGradient
-                colors={['#6366F1', '#4F46E5']}
+                colors={['#4338CA', '#312E81']}
                 style={styles.gotItButtonGradient}
               >
                 <Text style={styles.gotItButtonText}>Got It!</Text>
@@ -325,7 +325,7 @@ export default function SkinDiseaseScreen({ navigation }) {
                 onPress={() => navigation.replace('DashboardScreen')}
               >
                 <LinearGradient
-                  colors={['#6366F1', '#4F46E5']}
+                  colors={['#4338CA', '#312E81']}
                   style={styles.backButtonGradient}
                 >
                   <MaterialCommunityIcons name="arrow-left" size={24} color="#FFFFFF" />
@@ -340,7 +340,7 @@ export default function SkinDiseaseScreen({ navigation }) {
                 onPress={() => setInfoModalVisible(true)}
               >
                 <LinearGradient
-                  colors={['#6366F1', '#4F46E5']}
+                  colors={['#4338CA', '#312E81']}
                   style={styles.infoButtonGradient}
                 >
                   <MaterialCommunityIcons name="information" size={24} color="#FFFFFF" />
@@ -385,7 +385,7 @@ export default function SkinDiseaseScreen({ navigation }) {
                 ) : (
                   <View style={styles.placeholderContainer}>
                     <LinearGradient
-                      colors={['#818CF8', '#6366F1']}
+                      colors={['#4338CA', '#312E81']}
                       style={styles.placeholderGradient}
                       start={{ x: 0, y: 0 }}
                       end={{ x: 1, y: 1 }}
@@ -408,7 +408,7 @@ export default function SkinDiseaseScreen({ navigation }) {
                     <MaterialCommunityIcons
                       name="loading"
                       size={24}
-                      color="#4F46E5"
+                      color="#4338CA"
                       style={styles.loadingIcon}
                     />
                   </Animated.View>
@@ -445,8 +445,8 @@ export default function SkinDiseaseScreen({ navigation }) {
               <LinearGradient
                 colors={
                   isScanning || scanComplete
-                    ? ['rgba(99, 102, 241, 0.3)', 'rgba(79, 70, 229, 0.3)']
-                    : ['#6366F1', '#4F46E5']
+                    ? ['rgba(67, 56, 202, 0.3)', 'rgba(49, 46, 129, 0.3)']
+                    : ['#4338CA', '#312E81']
                 }
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 1 }}
@@ -468,19 +468,19 @@ export default function SkinDiseaseScreen({ navigation }) {
               <View style={styles.featuresContainer}>
                 <View style={styles.featureItem}>
                   <View style={styles.featureIconContainer}>
-                    <MaterialCommunityIcons name="shield-check" size={22} color="#4F46E5" />
+                    <MaterialCommunityIcons name="shield-check" size={22} color="#4338CA" />
                   </View>
                   <Text style={styles.featureText}>Private & Secure Analysis</Text>
                 </View>
                 <View style={styles.featureItem}>
                   <View style={styles.featureIconContainer}>
-                    <MaterialCommunityIcons name="brain" size={22} color="#4F46E5" />
+                    <MaterialCommunityIcons name="brain" size={22} color="#4338CA" />
                   </View>
                   <Text style={styles.featureText}>Accurate Skin Condition Detection</Text>
                 </View>
                 <View style={styles.featureItem}>
                   <View style={styles.featureIconContainer}>
-                    <MaterialCommunityIcons name="doctor" size={22} color="#4F46E5" />
+                    <MaterialCommunityIcons name="doctor" size={22} color="#4338CA" />
                   </View>
                   <Text style={styles.featureText}>Medically Informed AI</Text>
                 </View>
@@ -597,7 +597,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
     overflow: 'hidden',
     borderWidth: 2,
-    borderColor: 'rgba(99, 102, 241, 0.2)',
+    borderColor: 'rgba(67, 56, 202, 0.2)',
   },
   scanContainer: { 
     flex: 1, 
@@ -638,8 +638,8 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     height: 4,
-    backgroundColor: 'rgba(99, 102, 241, 0.9)',
-    shadowColor: '#6366F1',
+    backgroundColor: 'rgba(67, 56, 202, 0.9)',
+    shadowColor: '#4338CA',
     shadowOffset: { width: 0, height: 0 },
     shadowOpacity: 0.8,
     shadowRadius: 12,
@@ -651,7 +651,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 22,
     paddingVertical: 10,
     borderRadius: 24,
-    backgroundColor: 'rgba(79, 70, 229, 0.95)',
+    backgroundColor: 'rgba(67, 56, 202, 0.95)',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
@@ -670,7 +670,7 @@ const styles = StyleSheet.create({
   },
   completeOverlay: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: 'rgba(79, 70, 229, 0.9)',
+    backgroundColor: 'rgba(67, 56, 202, 0.9)',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -736,7 +736,7 @@ const styles = StyleSheet.create({
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#6366F1',
+    backgroundColor: '#4338CA',
     borderRadius: 4,
   },
   analyzeHint: {
@@ -790,12 +790,12 @@ const styles = StyleSheet.create({
     width: 42,
     height: 42,
     borderRadius: 12,
-    backgroundColor: 'rgba(99, 102, 241, 0.1)',
+    backgroundColor: 'rgba(67, 56, 202, 0.1)',
     justifyContent: 'center',
     alignItems: 'center',
     marginRight: 14,
     borderWidth: 1,
-    borderColor: 'rgba(99, 102, 241, 0.2)',
+    borderColor: 'rgba(67, 56, 202, 0.2)',
   },
   featureText: {
     fontSize: 16,

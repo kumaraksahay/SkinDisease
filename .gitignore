@@ -35,3 +35,7 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+
+# Firebase secret key (DO NOT COMMIT)
+myprojectkolhi-firebase-adminsdk-t3u1f-004b844be8.json
