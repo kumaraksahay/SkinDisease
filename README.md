@@ -1,103 +1,103 @@
 <table>
 <tr>
 <td>
-### 1. GetStartScreen.jpg<br/>
+1. GetStartScreen<br/>
 <img src="./assets/GetStartScreen.jpg" alt="GetStartScreen" width="300"/><br/>
 *App starting screen – welcome interface*
 </td>
 <td>
-### 2. Doctor And Patient Button .jpg<br/>
+2. Doctor And Patient Button<br/>
 <img src="./assets/Doctor And Patient Button .jpg" alt="DoctorAndPatientButton" width="300"/><br/>
-*Select user role – doctor/patient*
+*Select user role – doctor or patient*
 </td>
 </tr>
 
 <tr>
 <td>
-### 3. PatientLogin.jpg<br/>
+3. PatientLogin<br/>
 <img src="./assets/PatientLogin.jpg" alt="PatientLogin" width="300"/><br/>
-*User login screen for patients*
+*Login screen for patients to access app*
 </td>
 <td>
-### 4. Dashboard.jpg<br/>
+4. Dashboard<br/>
 <img src="./assets/Dashboard.jpg" alt="Dashboard" width="300"/><br/>
-*Main dashboard with quick options*
+*Main dashboard with all options*
 </td>
 </tr>
 
 <tr>
 <td>
-### 5. SkinScan UplaodCapture.jpg<br/>
+5. SkinScan UplaodCapture<br/>
 <img src="./assets/SkinScan UplaodCapture.jpg" alt="SkinScanUpload" width="300"/><br/>
-*Upload or capture skin image*
+*Upload or capture skin image for scan*
 </td>
 <td>
-### 6. RandomObject.jpg<br/>
+6. RandomObject<br/>
 <img src="./assets/RandomObject.jpg" alt="RandomObject" width="300"/><br/>
-*Shows warning: upload valid skin image*
+*Shows warning to upload valid skin image*
 </td>
 </tr>
 
 <tr>
 <td>
-### 7. Analysis.jpg<br/>
+7. Analysis<br/>
 <img src="./assets/Analysis.jpg" alt="Analysis" width="300"/><br/>
-*Scanning progress – analyzing screen*
+*Scanning progress – app analyzing image*
 </td>
 <td>
-### 8. Analysis_Disease.jpg<br/>
+8. Analysis_Disease<br/>
 <img src="./assets/Analysis_Disease.jpg" alt="AnalysisDisease" width="300"/><br/>
-*Detected disease with percentage result*
+*Detected disease with probability score*
 </td>
 </tr>
 
 <tr>
 <td>
-### 9. DiseaseDetailTips.jpg<br/>
+9. DiseaseDetailTips<br/>
 <img src="./assets/DiseaseDetailTips.jpg" alt="DiseaseDetailTips" width="300"/><br/>
 *Care guide – symptoms, causes, tips*
 </td>
 <td>
-### 10. FindDoctor.jpg<br/>
+10. FindDoctor<br/>
 <img src="./assets/FindDoctor.jpg" alt="FindDoctor" width="300"/><br/>
-*Search available dermatologists list*
+*Search and select dermatologists*
 </td>
 </tr>
 
 <tr>
 <td>
-### 11. DoctorDetail.jpg<br/>
+11. DoctorDetail<br/>
 <img src="./assets/DoctorDetail.jpg" alt="DoctorDetail" width="300"/><br/>
-*Doctor profile – details overview*
+*Doctor profile overview – experience and ratings*
 </td>
 <td>
-### 12. DoctorDetail2.jpg<br/>
+12. DoctorDetail2<br/>
 <img src="./assets/DoctorDetail2.jpg" alt="DoctorDetail2" width="300"/><br/>
-*More doctor information – ratings etc.*
+*More detailed doctor information and reviews*
 </td>
 </tr>
 
 <tr>
 <td>
-### 13. Feedback.jpg<br/>
+13. Feedback<br/>
 <img src="./assets/Feedback.jpg" alt="Feedback" width="300"/><br/>
-*Give feedback after appointment*
+*Submit feedback after appointment*
 </td>
 <td>
-### 14. FindSlot.jpg<br/>
+14. FindSlot<br/>
 <img src="./assets/FindSlot.jpg" alt="FindSlot" width="300"/><br/>
-*Select available doctor time slots*
+*Select available time slots for appointment*
 </td>
 </tr>
 
 <tr>
 <td>
-### 15. bookingappointment.jpg<br/>
+15. bookingappointment<br/>
 <img src="./assets/bookingappointment.jpg" alt="BookingAppointment" width="300"/><br/>
-*Appointment booking screen interface*
+*Confirm and book doctor appointment*
 </td>
 <td>
-### 16. chatLimtedmessage.jpg<br/>
+16. chatLimtedmessage<br/>
 <img src="./assets/chatLimtedmessage.jpg" alt="ChatLimitedMessage" width="300"/><br/>
 *Limited chat before doctor approval*
 </td>
@@ -105,61 +105,61 @@
 
 <tr>
 <td>
-### 17. AllAppointmentbooking.jpg<br/>
+17. AllAppointmentbooking<br/>
 <img src="./assets/AllAppointmentbooking.jpg" alt="AllAppointmentBooking" width="300"/><br/>
-*All booked appointments listed*
+*View all booked appointments*
 </td>
 <td>
-### 18. Appointmnet_Viewdetails.jpg<br/>
+18. Appointmnet_Viewdetails<br/>
 <img src="./assets/Appointmnet_Viewdetails.jpg" alt="AppointmentViewDetails" width="300"/><br/>
-*View complete appointment details*
+*View complete details of selected appointment*
 </td>
 </tr>
 
 <tr>
 <td>
-### 19. SettingPateintProfile.jpg<br/>
+19. SettingPateintProfile<br/>
 <img src="./assets/SettingPateintProfile.jpg" alt="SettingPatientProfile" width="300"/><br/>
-*User profile – settings and details*
+*Patient profile settings and updates*
 </td>
 <td>
-### 20. DoctorLoginDashboard.jpg<br/>
+20. DoctorLoginDashboard<br/>
 <img src="./assets/DoctorLoginDashboard.jpg" alt="DoctorLoginDashboard" width="300"/><br/>
-*Doctor dashboard – appointment control*
+*Doctor dashboard – manage appointments*
 </td>
 </tr>
 
 <tr>
 <td>
-### 21. doctorProfile.jpg<br/>
+21. doctorProfile<br/>
 <img src="./assets/doctorProfile.jpg" alt="DoctorProfile" width="300"/><br/>
-*Doctor profile information page*
+*Doctor personal profile and info*
 </td>
 <td>
-### 22. createSlottime.jpg<br/>
+22. createSlottime<br/>
 <img src="./assets/createSlottime.jpg" alt="CreateSlotTime" width="300"/><br/>
-*Doctor creates available timeslots*
+*Doctor sets available time slots*
 </td>
 </tr>
 
 <tr>
 <td>
-### 23. ViewRequestappointmnet.jpg<br/>
+23. ViewRequestappointmnet<br/>
 <img src="./assets/ViewRequestappointmnet.jpg" alt="ViewRequestAppointment" width="300"/><br/>
-*Doctor views appointment requests*
+*Doctor views incoming appointment requests*
 </td>
 <td>
-### 24. writePresception.jpg<br/>
+24. writePresception<br/>
 <img src="./assets/writePresception.jpg" alt="WritePrescription" width="300"/><br/>
-*Doctor writes online prescription*
+*Doctor writes prescription online*
 </td>
 </tr>
 
 <tr>
 <td>
-### 25. filegenrate.jpg<br/>
+25. filegenrate<br/>
 <img src="./assets/filegenrate.jpg" alt="FileGenerate" width="300"/><br/>
-*Generated prescription or QR slip*
+*Generated prescription for patient*
 </td>
 <td></td>
 </tr>
