@@ -296,7 +296,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 **Project Maintainer** - [@Akshay Kumar ](https://github.com/yourusername)
 
-**Project Link** - [https://github.com/kumaraksahay/Skin_Scan_DiseaseAk/edit/main/README.md](https://github.com/kumaraksahay/Skin_Scan_DiseaseAk/edit/main/README.md)
+**Project Link** - [https://github.com/kumaraksahay/Skin_Scan_DiseaseAk](https://github.com/kumaraksahay/Skin_Scan_DiseaseAk)
 
 ---
 
