@@ -298,9 +298,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**Project Maintainer** - [@yourusername](https://github.com/yourusername)
+**Project Maintainer** - [@Akshay Kumar ](https://github.com/yourusername)
 
-**Project Link** - [https://github.com/yourusername/skinscan](https://github.com/yourusername/skinscan)
+**Project Link** - [https://github.com/yourusername/skinscan](https://github.com/kumaraksahay/Skin_Scan_DiseaseAk/edit/main/README.md)
 
 ---
 
