@@ -290,17 +290,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 ## 📧 Contact
 
 **Project Maintainer** - [@Akshay Kumar ](https://github.com/yourusername)
 
-**Project Link** - [https://github.com/yourusername/skinscan](https://github.com/kumaraksahay/Skin_Scan_DiseaseAk/edit/main/README.md)
+**Project Link** - [https://github.com/kumaraksahay/Skin_Scan_DiseaseAk/edit/main/README.md](https://github.com/kumaraksahay/Skin_Scan_DiseaseAk/edit/main/README.md)
 
 ---
 
